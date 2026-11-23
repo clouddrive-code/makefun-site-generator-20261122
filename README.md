@@ -1,6 +1,10 @@
 # site-generator-speed entry
 
-A faster drop-in for makefun-site 1.0.0, written from scratch: `solve.js`
+[![make.fun · site-generator-speed-01-run-20261122](https://make.fun/badge/site-generator-speed-01-run-20261122.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![rank](https://make.fun/badge/site-generator-speed-01-run-20261122/clouddrive-code/makefun-site-generator-20261122/rank.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![reward](https://make.fun/badge/site-generator-speed-01-run-20261122/clouddrive-code/makefun-site-generator-20261122/reward.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+
+Entry for the [site-generator-speed-01-run-20261122 bounty](https://make.fun/bounty/site-generator-speed-01-run-20261122): a faster drop-in for makefun-site 1.0.0, written from scratch: `solve.js`
 exports `run(input)`, returning exactly the output tree the reference build
 returns for the same input, byte for byte. `main.ts` is the harness driver —
 it reads `/input/cases.json`, answers each case alone with `run`, and writes
